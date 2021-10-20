@@ -4,7 +4,7 @@ p {
 	font-size: xxx-large;
 }
 
-#main_text {
+/* #main_text {
 	display: flex;
 	justify-content: center;
 }
@@ -15,4 +15,13 @@ p {
 	position: absolute;
 	top: 50%;
 	margin-left: 10vw;
+} */
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80vw;
+	height: 40vh;
+	background-color: rebeccapurple;
 }
