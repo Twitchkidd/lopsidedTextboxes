@@ -21,7 +21,8 @@ const TitleText = styled.p`
 `;
 
 const Title = () => {
-	const text = 'Jadefalke';
+	const text =
+		'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum modi doloremque doloribus dignissimos aperiam laboriosam et numquam, atque nihil. Voluptates ipsam consequatur veniam nisi modi consequuntur dolore deleniti exercitationem, ratione incidunt laboriosam earum sunt ut deserunt blanditiis dignissimos aperiam esse.';
 	const [index, setIndex] = useState(1);
 	useEffect(() => {
 		const interval = setInterval(() => {
@@ -32,7 +33,7 @@ const Title = () => {
 				}
 				return val + 1;
 			});
-		}, 200);
+		}, 30);
 		return () => clearInterval(interval);
 	}, []);
 	return (
