@@ -37,7 +37,6 @@ const Title = () => {
 	}, []);
 	return (
 		<Wrapper>
-			<></>
 			<TitleText>{text.slice(0, index)}</TitleText>
 			<TitleText second>{text[index - 1]}</TitleText>
 		</Wrapper>
