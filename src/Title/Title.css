@@ -1,0 +1,18 @@
+p {
+	font-family: 'JetBrains Mono', monospace;
+	color: #e5e5e5;
+	font-size: xxx-large;
+}
+
+#main_text {
+	display: flex;
+	justify-content: center;
+}
+
+#main_text::after {
+	content: 'Lorem';
+	color: orange;
+	position: absolute;
+	top: 50%;
+	margin-left: 10vw;
+}
