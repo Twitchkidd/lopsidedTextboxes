@@ -3,10 +3,10 @@ import styled from 'styled-components';
 import './Title.css';
 
 const MainText = styled.p`
+	width: ${props => props.text.length + 1}ch;
 	&::after {
 		content: '${props => props.text[props.index - 1]}';
 		color: orange;
-		position: absolute;
 		margin-left: 10vw;
 	}
 `;
@@ -33,7 +33,7 @@ export default function Title() {
 				}
 				return val + 1;
 			});
-		}, 200);
+		}, 2000);
 		return () => clearInterval(interval);
 	}, []);
 
